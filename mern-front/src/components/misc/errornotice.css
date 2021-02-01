@@ -1,0 +1,20 @@
+
+.error-notice {
+    margin: 1rem 1rem;
+    height: 40px;
+    padding: 0.5rem;
+    border: 1px solid red;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.error-notice button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}

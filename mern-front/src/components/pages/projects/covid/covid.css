@@ -1,0 +1,70 @@
+
+.covid {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    text-align: center;
+    grid-gap: 100px;
+}
+
+.covid-content {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.covid-content-land {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.covid-title {
+    font-size: 50px;
+}
+
+.covid-content_total {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.covid-content_total label {
+    font-weight: bold;
+}
+
+.covid-content-land button{
+    padding: 1rem 2rem;
+    border: 0.1px solid rgb(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: transparent;
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-timing-function: ease;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.covid-content-land button:hover {
+    background-color: white;
+    color: #264653;
+}
+
+.covid-content-land input {
+    display: block;
+    align-items: center;
+    width: 19.5rem;
+    height: 2.5rem;
+
+    mix-blend-mode: normal;
+    border-radius: 2px;
+}
+
+.covid-content-land input[placeholder="Land Code no=Norway"] {
+    padding: 0rem 1rem;
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+}

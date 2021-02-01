@@ -1,0 +1,65 @@
+.login {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    justify-content: center;
+    grid-gap:15px;
+}
+
+.login-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 20px;
+}
+
+.login-form {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 15px;
+}
+
+.login-form-input {
+    display: block;
+    align-items: center;
+    width: 19.5rem;
+    height: 2.5rem;
+
+    mix-blend-mode: normal;
+    border-radius: 2px;
+}
+
+.login-form input[placeholder="Email"], input[placeholder="Password"] {
+    padding: 0rem 1rem;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.login-form-submit {
+    padding: 10px 30px;
+    border: 0.1px solid rgb(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: transparent;
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-timing-function: ease;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.login-form-submit:hover {
+    background-color: white;
+    color: #264653;
+}
+
+.login-msg {
+    font-weight: bold;
+}
+
+.login-title-big {
+    font-family: 'Playfair Display';
+    font-size: 50px;
+}

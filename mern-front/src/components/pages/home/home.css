@@ -1,0 +1,30 @@
+
+.home {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    grid-gap: 40px;
+}
+
+
+.home-first {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.home-title-big {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 20px;
+    color: #C1C1BF;
+}
+
+.home-text {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 4rem;
+}

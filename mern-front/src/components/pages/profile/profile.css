@@ -1,0 +1,109 @@
+
+
+.profile {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap:10px;
+    font-size: 18;
+    padding-bottom: 100px;
+}
+
+.profile-title {
+    font-family: 'Playfair Display';
+    font-size: 50px;
+}
+
+.profile-info {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 30px;
+    border: 1px solid rgb(255, 255, 255, 0.15);
+    padding: 100px
+}
+
+.profile-info-each {
+    display: grid;
+    grid-template-columns: auto auto;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.5);
+    grid-gap: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.profile-info-each-title {
+    display: grid;
+    justify-content: start;
+    font-weight: bold;
+    padding-bottom: 5px;
+    
+}
+
+.profile-info-each-info {
+    display: grid;
+    justify-content: end;
+    font-style: italic;
+}
+
+.profile-img {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+}
+
+.profile-img-own {
+    display: grid;
+    width: 300px;
+}
+
+.profile-username {
+    padding:10px;
+    border-bottom: 1px solid rgb(255, 255, 255, 1);
+}
+
+.profile-button div {
+    display: grid;
+    grid-gap: 30px;
+    justify-content: center;
+}
+
+.profile-button-delete-text {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 12;
+    opacity: 50%;
+}
+
+.profile-button button {
+    padding: 10px 30px;
+    border: 0.5px solid rgb(255, 255, 255, 1);
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: transparent;
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-timing-function: ease;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.profile-button button:hover {
+    background-color: white;
+    color: #264653;
+}
+
+.profile-info-each-info-input {
+    border-radius: 2px;
+}
+
+.profile-info-each input[type="text"], input[type="date"] {
+    padding: 0rem 1rem;
+    font-style: normal;
+    font-size: 14px;
+}

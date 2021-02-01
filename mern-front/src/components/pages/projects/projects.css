@@ -1,0 +1,73 @@
+.projects {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-title {
+    display: grid;
+    justify-content: center;
+    font-family: 'Playfair Display';
+    font-size: 50px;
+
+}
+
+.projects-project-body {
+    display: grid;
+    grid-gap: 10px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.projects-project-title {
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.15);
+}
+
+.projects-project-text {
+    font-style: italic;
+    padding:10px;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.15);
+}
+
+.projects-project {
+    display: grid;
+    width: 300px;
+    text-align: center;
+    grid-template-rows: auto auto;
+    padding: 30px;
+    grid-gap: 1rem;
+    justify-content: space-between;
+    border: 1px solid rgb(255, 255, 255, 0.15);
+    opacity: 50%;
+}
+
+
+.projects-project:hover {
+    opacity: 100%;
+    
+}
+
+.projects-project:hover {
+    background-color: #23434e;
+}
+
+.projects-project div {
+    width: 100%;
+}
+
+.projects-project-img-own {
+    width: 100%;
+    border-radius: 2px;
+}
+
+.projects-project-footer-text {
+    opacity: 50%;
+    font-size: 14px;
+}

@@ -1,0 +1,44 @@
+
+.game {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    grid-gap: 30px;
+}
+
+.game-title {
+    font-style: normal;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 0 100px;
+    border-bottom: 0.5px solid rgb(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+.game-lobby {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.game-lobby button {
+    border: 0.1px solid rgb(255, 255, 255, 0.4);
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: transparent;
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-timing-function: ease;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+
+    
+}
+
+.game-lobby button:hover {
+    background-color: white;
+    color: #264653;
+}
