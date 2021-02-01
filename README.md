@@ -1,4 +1,4 @@
-Simple and clean MERN stack project. 
+Simple and clean MERN stack (Class based) project. 
 
 
 Includes:
